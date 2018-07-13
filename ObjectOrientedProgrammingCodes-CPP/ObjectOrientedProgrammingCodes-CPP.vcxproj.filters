@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ReverseWordInString.cpp">
+    <ClCompile Include="src\ReverseWordInString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

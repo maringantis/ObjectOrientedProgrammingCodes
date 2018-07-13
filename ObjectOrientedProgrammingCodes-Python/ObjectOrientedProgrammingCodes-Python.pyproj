@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7cb4f0ce-1065-4859-b431-25d0765adeeb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ObjectOrientedProgrammingCodes_Python.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ObjectOrientedProgrammingCodes_Python.py" />
+    <Compile Include="src\MagicNumbers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\ReverseWordInString.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

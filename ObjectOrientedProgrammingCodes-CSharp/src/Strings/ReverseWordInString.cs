@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ObjectOrientedProgrammingCodes_CSharp
+namespace ObjectOrientedProgrammingCodes_CSharp.Strings
 {
+    //Reverse words in a string (words are separated by one or more spaces). Now do it in-place. By far the most popular string question! 
     class ReverseWordInString
     {
         static void Main(string[] args)
