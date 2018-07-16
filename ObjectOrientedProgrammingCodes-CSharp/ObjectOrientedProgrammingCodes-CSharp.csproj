@@ -45,6 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\MagicNumbers.cs" />
     <Compile Include="src\MainFunction.cs" />
+    <Compile Include="src\Strings\LeastCharactersToMakeAnagram.cs" />
     <Compile Include="src\Strings\RemoveDuplicatesInString.cs" />
   </ItemGroup>
   <ItemGroup>
